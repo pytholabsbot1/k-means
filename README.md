@@ -19,3 +19,14 @@ c.process() ## fit kmeans to image array
 
 c.save('out.jpg') ## save pallete as image
 ```
+![alt text](https://github.com/pytholabsbot1/k-means/raw/master/test_image.png)
+![alt text](https://github.com/pytholabsbot1/k-means/raw/master/pallete.png)
+
+```
+from color_pallete import ImageFilter
+
+img = ImageFilter('dog.jpg',k=3) 
+img.save('new_img.jpg')
+
+```
+![alt text](https://github.com/pytholabsbot1/k-means/raw/master/filtered_img.png)
